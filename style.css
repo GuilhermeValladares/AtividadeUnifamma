@@ -1,0 +1,56 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #FFC0CB; /* Fundo rosa */
+}
+
+header, section, footer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #FF69B4; /* Rosa mais forte para o cabeçalho */
+    text-align: center;
+    color: #fff; /* Cor do texto no cabeçalho */
+}
+
+section {
+    margin-top: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #FFD700;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 20px;
+    background-color: #FF69B4; /* Rosa mais forte para o rodapé */
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
