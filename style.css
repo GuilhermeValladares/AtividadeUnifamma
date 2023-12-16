@@ -12,13 +12,17 @@ header, section, footer {
     padding: 20px;
 }
 
-header {
+header{
     background-color: #FF69B4; /* Rosa mais forte para o cabeçalho */
     text-align: center;
     color: #fff; /* Cor do texto no cabeçalho */
 }
 
-section {
+#localizacao {
+    margin-top: 20px;
+}
+
+#produtos{
     margin-top: 20px;
 }
 
@@ -54,3 +58,4 @@ footer {
     text-align: center;
     padding: 10px;
 }
+
